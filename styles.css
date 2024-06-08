@@ -64,7 +64,7 @@ body{
 }
 .hero .right .image{
     width: 35.75vw;
-    background-color: #676767;
+    background-color: #81828b;
     color: #E5E7EB;
     margin-top: 14vh;
     padding: 12vh 0px 12vh 0px;
@@ -72,6 +72,7 @@ body{
     justify-content: center;
 }
 h1.infotitle{
+    margin: 6vh 0vh 6vh 0vh;
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
@@ -80,15 +81,16 @@ h1.infotitle{
 .info{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 55px;
 }
 .box{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border: #3882F6 solid 4px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .subtext{
+    margin: 1vh 0vh 12.5vh 0vh;
     width: 150px;
     text-align: center;
 }
@@ -97,12 +99,58 @@ h1.infotitle{
     flex-direction: column;
     align-items: center;
 }
+.quote{
+    background-color: #E5E7EB;
+}
+.quote .text{
+    margin: 0vh 20vw 0vh 23.5vw;
+    padding: 12vh 0vh 0vh 0vh;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+}
+.quote .signature{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0px 23vw 0px 0px;
+    padding-bottom: 13vh;
+}
+.cta{
+    background-color: #3882F6;
+    border-radius: 7px;
+    display: flex;
+    margin: 13vh 14.25vw 13vh 14.25vw;
+    justify-content: center;
+    align-items: center;
+}
+.cta .leftside{
+    margin: 6vh 14vw 6vh 0vw;
+}
+.cta .leftside .hook{
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+.cta .leftside .support{
+    color: #E5E7EB;
+}
+.cta .signup{
+    padding: 1vh 4vh 0.9vh 4vh;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 7px;
+}
 .footer{
     color: #e5e5e5;
     font-size: 18px;
     text-align: center;
-    padding: 3vh 0vh 3vh 0vh;
-    position: fixed;
+    padding: 4vh 0vh 4vh 0vh;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
